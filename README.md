@@ -20,7 +20,7 @@ variation between different readers using two manual techniques to demonstrate t
 need for a reliable and reproducible automated system. Finally, we included blood
 smears from an additional 102 patients to compare the performance and correlation of
 our system with manual microscopy and semi-automatic techniques using commercial
-flow cytometry. Our results showed strong correlations b
+flow cytometry.
 
 ## Requirements
 * Python 3.7 or later  
