@@ -1,7 +1,7 @@
 # MALARIS
 
 ## Info
-This is the code for our PLOS ONE paper : An automated system for Plasmodium falciparum detection and parasitemia estimation: evaluation on thin blood smear images
+This is the code and data for our PLOS ONE paper : An automated system for Plasmodium falciparum detection and parasitemia estimation: evaluation on thin blood smear images
 The script uses OpenCV for image processing and a pre-trained TensorFlow model for classification.
 by [Aniss Acherar, Ph.D](http://aniss.acherar.free.fr/) et al.
 
@@ -20,8 +20,9 @@ variation between different readers using two manual techniques to demonstrate t
 need for a reliable and reproducible automated system. Finally, we included blood
 smears from an additional 102 patients to compare the performance and correlation of
 our system with manual microscopy and semi-automatic techniques using commercial
-flow cytometry.
+flow cytometry.  
 
+The datasets consist of parasitemia estimated by various techniques. There are two files: '14_patients.csv' includes 14 patients and their parasitemia estimated by the proposed system (attached Python code), as well as estimations made by manual techniques including standard measurement and that assisted by the Miller cell. The second file, '102_patients.csv', corresponds to estimated parasitemia and parasitemia estimates from three techniques including the system, the Miller cell, and flow cytometry for another 102 patients  
 ## Requirements
 * Python 3.7 or later  
 * OpenCV  
