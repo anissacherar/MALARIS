@@ -42,7 +42,7 @@ The datasets consist of parasitemia estimated by various techniques. There are t
 * Load the pre-trained model using the `load_model` function. 
 * Use the `cropfield` function to crop the field of the image. 
 * Use the `exam` function to examine the image field and detect malaria and estimate parasitemia.
-
+* Note that the classification model can be accessed via this link [MALARIS model](https://drive.google.com/file/d/1_jZ2SBGxdt2QZox0JcgOcrLJ3gBMjK60/view?usp=share_link) 
 
 ## License : This project is licensed under the terms of the GNU General Public License (GPL)."
 
