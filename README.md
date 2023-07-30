@@ -38,7 +38,9 @@ The datasets consist of parasitemia estimated by various techniques. There are t
 * Matplotlib  
 * Numpy  
 
-## Tasks
+## About Dataset
+
+## About Code
 * Load the pre-trained model using the `load_model` function. 
 * Use the `cropfield` function to crop the field of the image. 
 * Use the `exam` function to examine the image field and detect malaria and estimate parasitemia.
