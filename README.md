@@ -28,15 +28,6 @@ The datasets consist of parasitemia estimated by various techniques. There are t
 
 
 
-## Requirements
-* Python 3.7 or later  
-* OpenCV  
-* TensorFlow  
-* Scipy   
-* Scikit-image  
-* Keras  
-* Matplotlib  
-* Numpy  
 
 ## About Datasets
 ### 14_patients.csv 
@@ -63,9 +54,20 @@ The dataset contains information from 102 patients, with parasitemia measurement
 
 
 ## About main.py Code
+
 ### Descritption
 This is the MALARIS code, it takes an image of a thin blood smear at 500x magnification as input and calculates the parasitemia percentage by classifying the detected red blood cells (RBCs). It first loads a pre-trained model for cell classification. The image is then preprocessed to subtract the background, and the field of interest is cropped for analysis. The function "exam" is used to segment the cells and predict whether they are infected (P) or uninfected (N). The parasitemia percentage is then calculated based on the number of infected cells detected in the field. The output includes an image with marked infected and uninfected cells, the number of infected RBCs, the number of uninfected blood components, and the estimated parasitemia percentage.
 
+### Requirements
+* Python 3.7 or later  
+* OpenCV  
+* TensorFlow  
+* Scipy   
+* Scikit-image  
+* Keras  
+* Matplotlib  
+* Numpy
+  
 ### Functions
 * Load the pre-trained model using the `load_model` function. 
 * Use the `cropfield` function to crop the field of the image. 
