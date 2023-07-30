@@ -38,7 +38,20 @@ The datasets consist of parasitemia estimated by various techniques. There are t
 * Matplotlib  
 * Numpy  
 
-## About Dataset
+## About Datasets
+### 14_patients.csv 
+
+
+### 102_patients.csv
+The dataset contains information from 102 patients, with parasitemia measurements calculated using three different methods: MALARIS, the Miller Reticle, and flow cytometry. For the MALARIS measurement: for each patient, parasitemia was measured in 10 different fields using the MALARIS method. The dataset aims to provide comparative data for evaluating the performance of different parasitemia measurement methods in the context of Plasmodium falciparum infection.
+
+#### Descritption
+* Patient: The unique identifier for each patient.
+* MALARIS PARs(%): The parasitemia percentage calculated using the MALARIS pipeline for each patient.
+* Miller PARs(%): The parasitemia percentage calculated using the Miller Reticle method for each patient.
+* Cyto PARs(%): The parasitemia percentage calculated using the flow cytometry for each patient.
+* The columns "MALARIS1" to "MALARIS10" represent the parasitemia measurements obtained from ten different fields using the MALARIS method for each patient.
+
 
 ## About Code
 * Load the pre-trained model using the `load_model` function. 
