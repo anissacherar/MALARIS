@@ -40,14 +40,23 @@ The datasets consist of parasitemia estimated by various techniques. There are t
 
 ## About Datasets
 ### 14_patients.csv 
+The dataset comprises data from 14 patients, and each patient's parasitemia was determined using three distinct methods: MALARIS, the Miller Reticle, and standard microscopy. The parasitemia measurements were obtained by analyzing 10 different fields using the MALARIS method, 10 measurements were taken by 10 different microscopists using the Miller Reticle, and another 10 measurements were performed using the standard microscopy procedure. 
 
+#### Description 
+* Patient: A unique identifier assigned to each patient.
+* MALARIS PARs(%): The average parasitemia percentage calculated using the MALARIS pipeline for each patient.
+* Miller PARs(%): The parasitemia percentage calculated using the Miller Reticle method for each patient.
+* Std PARs(%): The parasitemia percentage calculated using standard microscopy for each patient.
+* Columns "MALARIS1" to "MALARIS10" represent the parasitemia measurements obtained from ten different fields using the MALARIS method for each patient.
+* Columns "MILLER1" to "MILLER10" represent the parasitemia measurements obtained from ten different microscopists using the Miller Reticle method for each patient.
+* Columns "STANDARD1" to "STANDARD10" represent the parasitemia measurements obtained from ten different microscopists using standard microscopy for each patient.
 
 ### 102_patients.csv
 The dataset contains information from 102 patients, with parasitemia measurements calculated using three different methods: MALARIS, the Miller Reticle, and flow cytometry. For the MALARIS measurement: for each patient, parasitemia was measured in 10 different fields using the MALARIS method. The dataset aims to provide comparative data for evaluating the performance of different parasitemia measurement methods in the context of Plasmodium falciparum infection.
 
 #### Descritption
 * Patient: The unique identifier for each patient.
-* MALARIS PARs(%): The parasitemia percentage calculated using the MALARIS pipeline for each patient.
+* MALARIS PARs(%): The average parasitemia percentage calculated using the MALARIS pipeline for each patient.
 * Miller PARs(%): The parasitemia percentage calculated using the Miller Reticle method for each patient.
 * Cyto PARs(%): The parasitemia percentage calculated using the flow cytometry for each patient.
 * The columns "MALARIS1" to "MALARIS10" represent the parasitemia measurements obtained from ten different fields using the MALARIS method for each patient.
