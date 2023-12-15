@@ -74,5 +74,5 @@ This is the MALARIS code, it takes an image of a thin blood smear at 500x magnif
 * Use the `exam` function to examine the image field and detect malaria and estimate parasitemia.
 * Note that the classification model can be accessed via this link [MALARIS model](https://drive.google.com/file/d/1_jZ2SBGxdt2QZox0JcgOcrLJ3gBMjK60/view?usp=share_link) 
 
-## License : This project is licensed under the terms of the GNU General Public License (GPL)."
+## License : This project is licensed under the terms of the Creative Commons public license (CC BY 4.0 )."
 
